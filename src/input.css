@@ -1,9 +1,17 @@
-@tailwind base;
-@tailwind components;
+/* @tailwind base;
+@tailwind components; */
 @tailwind utilities;
 
-@variants hover, focus {
-    .rotate-90 {
-        transform: rotate(90deg);
+@responsive{
+    .bg-gradient-brand{
+        text-size: 12px;
+        background-image: linear-gradient(blue, green);
+    }
+}
+
+@screen sm{
+    .noman{
+        text-size: 12px;
+        background-image: linear-gradient(blue, green);
     }
 }
