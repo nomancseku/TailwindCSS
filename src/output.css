@@ -566,6 +566,16 @@ video {
   line-height: 1.25rem;
 }
 
+.btn:hover {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.btn:focus {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 @media (min-width: 540px) {
   .btn {
     text-align: left;

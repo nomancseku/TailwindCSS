@@ -5,5 +5,5 @@
 
  .btn {
   @apply text-sm text-center bg-blue-600 sm:text-left 
-  md:text-left lg:text-right 4k:text-center;
+  md:text-left lg:text-right 4k:text-center hover:text-lg focus:text-2xl;
  }
