@@ -554,8 +554,22 @@ video {
   --tw-contain-style:  ;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .bg-green-600\/30 {
   background-color: rgb(22 163 74 / 0.3);
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
 .btn {
