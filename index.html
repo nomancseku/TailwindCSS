@@ -11,9 +11,35 @@
 </head>
 
 <body>
-  <div class="w-full text-xl text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt voluptate 
+  <div class="w-full text-xl text-gray-600 first-letter:text-4xl first-letter:text-blue-600 selection:bg-red-300 dark:md:hover:bg-green-300 print:text-red-400 print:text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt voluptate 
     dignissimos veniam tempora quisquam consectetur repellendus minima quibusdam inventore. Maxime incidunt, consequuntur
-     praesentium dolores beatae vero tenetur atque architecto debitis?</div>
+     praesentium dolores beatae vero tenetur atque architecto debitis?
+  </div>
+
+  <div class="mt-10">
+    <label for="email" class="after:content-['*'] after:ml-1 text-[#e5e5e5]">Email</label>
+  </div>
+
+  <div class="max-w-4xl mx-auto">
+    <div class="mt-20 px-4 flex justify-center space-x-6">
+      <button class="bg-cyan-500 text-white px-4 py-2 rounded-full shadow-lg shadow-cyan-500/30">
+        Subscribe
+      </button>
+      <button class="bg-blue-500 text-white px-4 py-2 rounded-full shadow-lg shadow-blue-500/30">
+        Subscribe
+      </button>
+      <button class="bg-indigo-500 text-white px-4 py-2 rounded-full shadow-lg shadow-indigo-500/30">
+        Subscribe
+      </button>
+    </div>
+
+    <p class="mt-8 text-right pr-3">
+      <button onclick="window.print()" class="bg-black text-white px-4 py-2 rounded-full shadow-lg print:hidden">Print</button>
+    </p>
+
+  </div>
+
+  
 </body>
 
 </html>
